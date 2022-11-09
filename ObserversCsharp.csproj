@@ -13,4 +13,8 @@
     <None Remove="DesignPattern\Architecture\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CoreEvents" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>
