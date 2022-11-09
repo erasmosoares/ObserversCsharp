@@ -1,4 +1,4 @@
-﻿#region Premier exemple utilisant l'implementation du design patterns observer en 5 étapes
+﻿#region Premier exemple utilisant l'implementation du design patterns
 
 // 1 - Objet ou message qui sera envoyé.
 using CoreEvents;
@@ -44,7 +44,7 @@ foodDispatch_charpEvents.OrderSomeFood(food_charpEvents);
 #endregion
 
 
-#region Troisième exemple utilisant l'implémentation des observateurs à travers l'objet "Event" de C#
+#region Troisième exemple utilisant l'implémentation d'un agrégateur d'événements
 
 // Configuration Startup.cs
 var events = new CoreEvent();
