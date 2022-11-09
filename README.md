@@ -12,7 +12,7 @@ https://refactoring.guru/design-patterns/observer/csharp/example#:~:text=Observe
 
 https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/events/
 
-> Service Bus (MessageCore)
+> Service Bus (CoreEvent)
 
 **Usage examples:** Is a good choice when you have lots of objects that are potential event sources. Rather than have the observer deal with registering with them all, you can centralize the registration logic to the Event Aggregator
 
@@ -25,6 +25,8 @@ Service out there!
 - Amazon MQ
 
 https://martinfowler.com/eaaDev/EventAggregator.html
+
+https://github.com/erasmosoares/CoreEvent
 
 > SignalR
 

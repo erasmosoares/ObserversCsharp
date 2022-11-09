@@ -1,4 +1,6 @@
-namespace DesignPattern
+using DesignPattern.Models;
+
+namespace DesignPattern.Interfaces
 {
     public interface IFoodDispatch
     {
@@ -6,6 +8,6 @@ namespace DesignPattern
 
         void Detach(IFoodObserver observer);
 
-        void Notify(string food);
+        void Notify(Food food);
     }
 }

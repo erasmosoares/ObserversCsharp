@@ -1,4 +1,5 @@
-
+using DesignPattern.Interfaces;
+using DesignPattern.Models;
 namespace DesignPattern
 {
 
@@ -17,7 +18,7 @@ namespace DesignPattern
             this._observers.Remove(observer);
         }
 
-        public void Notify(string food)
+        public void Notify(Food food)
         {
             foreach (var observer in _observers)
             {
@@ -25,9 +26,9 @@ namespace DesignPattern
             }
         }
 
-        public void OrderSomeFood(string food)
+        public void OrderSomeFood(Food food)
         {
-            Console.WriteLine($"Envoi d'une commande de: {food}");
+            Console.WriteLine($"(DesignPattern - Publisher) Envoi d'une commande de: {food.Name}");
 
             Thread.Sleep(5000);
 
