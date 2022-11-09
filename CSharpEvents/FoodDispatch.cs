@@ -12,7 +12,7 @@ namespace CSharpEvents
         {
             Console.WriteLine($"(C# Events - Publisher) Envoi d'une commande de: {food.Name}");
 
-            Thread.Sleep(10000);
+            Thread.Sleep(5000);
 
             OnFoodOrdered(food);
         }

@@ -16,7 +16,7 @@ namespace Aggregator
         {
             Console.WriteLine($"(Aggregator - Publisher) Envoi d'une commande de: {food.Name}");
 
-            Thread.Sleep(15000);
+            Thread.Sleep(5000);
 
             _coreEvent.Publish(food);
 
